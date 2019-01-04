@@ -1,0 +1,26 @@
+# /etc/conf.d/mobiod: config file for /etc/init.d/mobiod
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/mobio/mobio.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/mobiod"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/mobiod.pid"
+
+# Where to write mobiod data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/mobiod"
+
+# User and group to own mobiod process
+#BITCOIND_USER="mobio"
+#BITCOIND_GROUP="mobio"
+
+# Path to mobiod executable
+#BITCOIND_BIN="/usr/bin/mobiod"
+
+# Nice value to run mobiod under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
